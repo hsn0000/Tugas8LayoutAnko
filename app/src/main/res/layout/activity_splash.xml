@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@drawable/bg1"
+             tools:context=".SplashActivity">
+
+    <TextView
+            android:id="@+id/fullscreen_content"
+            android:layout_width="350dp"
+            android:layout_height="450dp"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:text="Tugas8_Anko.."
+            android:textStyle="italic"
+            android:textColor="#ffffff"
+            android:textSize="35sp" />
+
+    <TextView
+            android:layout_width="590dp"
+            android:layout_height="1100dp"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:text="M.HUSIN...!"
+            android:textColor="#ffffff"
+            android:textStyle="bold|italic"
+            android:textSize="30sp" />
+    <ImageView android:layout_width="140dp"
+               android:layout_height="150dp"
+               android:src="@drawable/em1"
+               android:layout_gravity="center"
+    />
+
+</FrameLayout>
